@@ -9,5 +9,9 @@ Start with:
 java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb -inMemory
 ```
 
+Then run
+
+`sbt test`
+
 ## Examples
 [see unit tests](src/test/scala/DynamoDBV2Spec.scala)
